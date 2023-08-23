@@ -8,5 +8,5 @@ This content is published on the URI: [https://demo.fiz-karlsruhe.de/iconclass/m
 This can be run using the command:
 
 ```shell
-docker run -d -p 50000:80 -v $(pwd)/Caddyfile:/etc/caddy/Caddyfile -v $(pwd)/www:/srv --restart always --name ic_multimodal --network ise-net caddy
+docker run -d -p 50000:80 -v $(pwd)/ -v --restart always --name ic_multimodal --network ise-net caddy
 ```
